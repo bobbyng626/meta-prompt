@@ -1,0 +1,53 @@
+SYSTEM MESSAGE
+In this problem, you are required to analyze the odds and horses in a horse race in Hong Kong Jockey Club and rank the horses. The AI will provide you with the necessary information and guidance to complete the task. You will need to provide the AI with the necessary inputs and follow the instructions provided by the AI. Please note that the AI has certain limitations and can only provide guidance based on the information provided to it.
+CONCEPTS
+Win Odds: Win odds include 4 values 1/2/3/4, which determine the bettor's confidence level to trust the horse to win the race, it can be affected by the past performance of the horse. Lower the win odds value means a lot of bettors believe it can win the race, Lower win odds, higher confidence. Win odds 1 means very high confident, 2 is a relatively high condident, while 3 and 4 shows less confident. For example, win odds 1 means the horse has a lot more investment on it to win, so the chance of the horse winning increases, while win odds 4 means an inferior horse with fewer bettors investment on it to win, normally it has less confidence and a smaller chance to win.
+Jockey and Trainer Tier: Jockey and Trainer Tier, includes 3 values 1/2/3, indicates the general strength of the jockey or trainer, tier 3 is the most powerful jockey or trainer and wins more races, they have stronger perfromance, tier 2 is less powerful but still competitive, tier 1 jockey usually has less confidence in winning as Jockey Tier 1 and trainer Tier 1 mean weak jockey and trainer. 
+JT Performance Index: JT Performance Index, which includes 5 values 0/1/2/3/4, indicates the past performance result of the jockey and trainer. Under this Win Odds group, the jockey and trainer have different winning chances. JT Performance Index 0 shows a very low occurrence of winning races for this combination while increasing the JT Performance Index means more advanced performance. JT Performance Index 4 means a very high winning occurrence from past races. Combining the chance for both jockey and trainer by their past performance index and comparing with other jockey and trainer to get the past performance of the combination.
+CHAIN OF THOUGHT
+Step 1: Collect the necessary information
+Collect the information about the horses and their past performance, the jockey and trainer of each horse, and the win odds of each horse. This information can be found on the Hong Kong Jockey Club website or other horse racing websites.
+Step 2: Analyze the information
+Analyze the information collected in step 1. Look at the win odds of each horse, the jockey and trainer tier, and the JT performance index. Use this information to determine which horses are more likely to win the race.
+Step 3: Rank the horses
+Rank the horses based on the information analyzed in step 2. Assign a score to each horse based on their win odds, jockey and trainer tier, and JT performance index. The horse with the highest score is the most likely to win the race. 
+Step 4: Consider other factors
+Consider other factors that may affect the outcome of the race, such as the weather, track conditions, and the horse's recent form. Use this information to adjust the ranking of the horses if necessary.
+Step 5: Make the final ranking
+Make the final ranking of the horses based on the information analyzed in step 3 and the other factors considered in step 4. The horse with the highest score is the most likely to win the race. 
+
+CURRENT RACE:
+Horse 1, win odds 3, WP CI 3, QW CI 1, jockey CJE, trainer YTP, jockey tier 2, trainer tier 1, jockey win rate 1, trainer win rate 1, jockey gain $0.0, trainer gain $0.0, OB 2, win investment False, win investment win rate 2, Horse Performance 0, JT Performance 0, Eliminated False, Reborn False
+---
+Horse 2, win odds 1, WP CI 1, QW CI 1, jockey PZ, trainer CAS, jockey tier 3, trainer tier 3, jockey win rate 4, trainer win rate 4, jockey gain $0.0, trainer gain $0.0, OB 4, win investment False, win investment win rate 4, Horse Performance 4, JT Performance 4, Eliminated False, Reborn False
+---
+Horse 3, win odds 3, WP CI 3, QW CI 3, jockey TEK, trainer SJJ, jockey tier 3, trainer tier 3, jockey win rate 2, trainer win rate 1, jockey gain $0.0, trainer gain $0.0, OB 1, win investment False, win investment win rate 2, Horse Performance 0, JT Performance 0, Eliminated False, Reborn False
+---
+Horse 4, win odds 2, WP CI 3, QW CI 3, jockey HEL, trainer WDJ, jockey tier 3, trainer tier 1, jockey win rate 2, trainer win rate 3, jockey gain $0.0, trainer gain $0.0, OB 2, win investment False, win investment win rate 3, Horse Performance 3, JT Performance 0, Eliminated False, Reborn False
+---
+Horse 5, win odds 3, WP CI 3, QW CI 3, jockey BH, trainer MKL, jockey tier 2, trainer tier 1, jockey win rate 2, trainer win rate 1, jockey gain $0.0, trainer gain $0.0, OB 3, win investment True, win investment win rate 4, Horse Performance 2, JT Performance 2, Eliminated False, Reborn False
+---
+Horse 6, win odds 2, WP CI 2, QW CI 3, jockey HCY, trainer FC, jockey tier 3, trainer tier 1, jockey win rate 2, trainer win rate 2, jockey gain $0.0, trainer gain $0.0, OB 3, win investment False, win investment win rate 3, Horse Performance 0, JT Performance 2, Eliminated False, Reborn False
+---
+Horse 7, win odds 4, WP CI 3, QW CI 2, jockey LDE, trainer HDA, jockey tier 3, trainer tier 1, jockey win rate 1, trainer win rate 1, jockey gain $0.0, trainer gain $0.0, OB 2, win investment True, win investment win rate 2, Horse Performance 0, JT Performance 0, Eliminated False, Reborn True
+---
+Horse 8, win odds 4, WP CI 3, QW CI 3, jockey CCY, trainer NPC, jockey tier 1, trainer tier 1, jockey win rate 1, trainer win rate 1, jockey gain $0.0, trainer gain $0.0, OB 1, win investment False, win investment win rate 1, Horse Performance 1, JT Performance 0, Eliminated True, Reborn False
+---
+Horse 9, win odds 4, WP CI 3, QW CI 2, jockey HAA, trainer YCH, jockey tier 1, trainer tier 1, jockey win rate 1, trainer win rate 1, jockey gain $0.0, trainer gain $0.0, OB 1, win investment False, win investment win rate 1, Horse Performance 0, JT Performance 0, Eliminated True, Reborn False
+---
+Horse 11, win odds 3, WP CI 3, QW CI 2, jockey YML, trainer HL, jockey tier 1, trainer tier 1, jockey win rate 1, trainer win rate 1, jockey gain $0.0, trainer gain $0.0, OB 0, win investment False, win investment win rate 3, Horse Performance 0, JT Performance 0, Eliminated False, Reborn False
+---
+Horse 12, win odds 3, WP CI 3, QW CI 1, jockey CML, trainer CCW, jockey tier 3, trainer tier 1, jockey win rate 1, trainer win rate 1, jockey gain $0.0, trainer gain $0.0, OB 0, win investment True, win investment win rate 1, Horse Performance 0, JT Performance 0, Eliminated False, Reborn True
+---
+
+===
+QUESTION:
+rank all the horses in CURRENT RACE ranking 
+ format of: 
+1st: Horse A, 2nd: Horse B, and so on. where 1st rank is the most powerful horse in the rank by your prediction. 
+Just give me the ranking of those 12 horses
+===
+ANSWER:
+1st: Horse 2, 2nd: Horse 4, 3rd: Horse 5, 4th: Horse 1, 5th: Horse 3, 6th: Horse 6, 7th: Horse 7, 8th: Horse 11, 9th: Horse 12, 10th: Horse 8, 11th: Horse 9. 
+
+The ranking is based on the win odds, jockey and
